@@ -30,7 +30,7 @@ object FiltrarLista extends App {
 	println( filtra("laranja" :: "laranja-lima" :: "laranja-pêra" :: "pera" :: "uva" :: "maçã" :: Nil, todasAsLaranjas) )
 	println( filtraCurry(Range(0, 100)) (_ % 2 == 0)  )
 
-	//Gostaria de passar duas funções, por ex.: Maduras && Baratas.
+	//Gostaria de passar duas funções, por ex.: Maduras && Baratas
 	println( filtra(
 			List(
 					Fruta("laranja", 10.50, false),
